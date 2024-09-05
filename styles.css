@@ -1,0 +1,142 @@
+/* General Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.profile-info h1 {
+    font-size: 2.5rem;
+}
+
+.profile-info p {
+    font-size: 1.2rem;
+    color: #00ffaa;
+}
+
+.profile-pic img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 10%;
+  height: auto;
+}
+
+/* About Me Section */
+.about-me {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-me .btn-download {
+    background-color: #00ffaa;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.service {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Education & Experience Section */
+.education-experience {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+/* Pricing Table Section */
+.pricing {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Client Reviews Section */
+.client-reviews {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.contact form input,
+.contact form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+}
+
+.contact form button {
+    background-color: #00ffaa;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
